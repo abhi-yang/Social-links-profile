@@ -1,123 +1,138 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap');
 
-*{
+* {
    margin: 0;
    padding: 0;
    font-family: "Inter";
    overflow: hidden;
-   
-}
-
-body{
-    background-color: hsl(0, 0%, 8%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    
-}
-img{
-    border-radius: 100px;
-    width: 80px;
-    height: 80px;
-    cursor: pointer;
-    
-
 
 }
 
-.box{
-    width: 300px;
-    height: 45px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 7px;
-    background-color: hsl(0, 0%, 20%);
-    color: hsl(0, 0%, 100%);
-    
- 
+body {
+   background-color: hsl(0, 0%, 8%);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+
 }
 
-.container{
-   
-    width :400px;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: hsl(0, 0%, 12%);
-    border-radius: 16px;
-   
+img {
+   border-radius: 100px;
+   width: 80px;
+   height: 80px;
+   cursor: pointer;
+
+
+
 }
 
-.top-box{
+.box {
+   width: 300px;
+   height: 45px;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 7px;
+   background-color: hsl(0, 0%, 20%);
+   color: hsl(0, 0%, 100%);
+
+
+}
+
+.container {
+
+   min-width:  400px;
+   min-height: 600px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: hsl(0, 0%, 12%);
+   border-radius: 16px;
+
+}
+
+.top-box {
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    margin-top: 25px;
- }
+}
 
-.align-text{
-    text-align: center;
-    
+.align-text {
+   text-align: center;
 
- }
- h2{
-    margin-top: 20px;
-    font-weight: 700;
-    font-family: 12px;
-    color: white;
 
- }
- h3{
-    font-weight: 700;
-    color: hsl(75, 94%, 57%);
-    font-size: 14px;
-    margin-top: 7px;
- }
- span{
-    
-    color:hsl(0, 0%, 100%);
-    opacity: 0.5;
-    font-size: 14px;
-    margin-top: 25px;
-    
- }
- a{
-    text-decoration: none;
-    color: hsl(0, 0%, 100%);
-    font-family: "Inter";
-    font-weight: 700;
- }
+}
 
- .link{
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    gap: 17px;
-    align-content: center;
+h2 {
+   margin-top: 20px;
+   font-weight: 700;
+   font-family: 12px;
+   color: white;
 
- }
+}
 
-.footer{
-    position: absolute;
-    bottom: 10px;
-    
-    color: white;
-    font-size: 12px;
-   
- }
+h3 {
+   font-weight: 700;
+   color: hsl(75, 94%, 57%);
+   font-size: 14px;
+   margin-top: 7px;
+}
 
- .hover-image {
-    transition: opacity 0.3s ease; /* Smooth transition */
-  }
-  
-  .hover-image:hover {
-    opacity: 0.7; /* Reduce opacity on hover */
-  }
-  
+span {
+
+   color: hsl(0, 0%, 100%);
+   opacity: 0.5;
+   font-size: 14px;
+   margin-top: 25px;
+
+}
+
+a {
+   text-decoration: none;
+   color: hsl(0, 0%, 100%);
+   font-family: "Inter";
+   font-weight: 700;
+}
+
+.link {
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+   gap: 17px;
+   align-content: center;
+
+}
+
+.box {
+   cursor: pointer;
+   transition: 0.5s ease;
+}
+
+.box:hover {
+   background-color: hsla(75, 94%, 57%, 0.815);
+}
+
+.footer {
+   position: absolute;
+   bottom: 10px;
+
+   color: white;
+   font-size: 12px;
+
+}
+
+.hover-image {
+   transition: opacity 0.3s ease;
+   /* Smooth transition */
+}
+
+.hover-image:hover {
+   opacity: 0.7;
+   /* Reduce opacity on hover */
+}
